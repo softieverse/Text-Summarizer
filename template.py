@@ -24,6 +24,8 @@ list_of_files = [
     "setup.py",
     "research/trials.ipynb",
     "test.py "
+    "main.py"
+    "params.yaml"
 ]
 
 for filepath in list_of_files:

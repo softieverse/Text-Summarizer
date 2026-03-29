@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/softieverse/Text-Summarizer/raw/refs/heads/main/data/samsum/samsum_data.zip
+  local_data_file: artifacts/data_ingestion/dat.zip
+  unzip_dir: artifacts/data_ingestion
