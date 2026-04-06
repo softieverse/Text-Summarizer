@@ -28,7 +28,7 @@ class ModelTrainer:
         # Step 3 — define training arguments
         trainer_args = TrainingArguments(
             output_dir=self.config.root_dir,
-            num_train_epochs=1,
+            num_train_epochs=1, 
             warmup_steps=500,
             per_device_train_batch_size=1,
             per_device_eval_batch_size=1,
