@@ -7,7 +7,7 @@ from pathlib import Path
 from textSummarizer.entity import DataIngestionConfig
 
 class DataIngestion:
-    def __init__(self, config: DataIngestionConfig):
+    def __init__(self, config: DataIngestionConfig):  # dependency injection 
         self.config = config
 
     def download_file(self):
